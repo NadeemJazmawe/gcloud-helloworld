@@ -25,12 +25,13 @@ def hello():
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
 ```
-you can run this python code and visit the web on: http://127.0.0.1:5000/
+You can run this python code and visit the web on: http://127.0.0.1:5000/
 
 ![Untitled](https://user-images.githubusercontent.com/44744877/183521990-4148b286-9985-44bb-8aa2-d9fb197305fe.png)
 
 
 After that i have created requirements.txt file , which contain name of the libraries i have used(in my case i have used only flask library).
+
 Also i have created Dockerfile , to build the image.
 ```
 FROM python:3.6-alpine
@@ -41,10 +42,13 @@ COPY helloworld.py helloworld.py
 EXPOSE 5000
 CMD ["python", "helloworld.py"]
 ```
+
 The image based on python:3.6-alpine which is a minimal Docker Official Image, installing flask library, expose port 5000 , and running the web.
 
 After that i pushed the imgae to Dockerhub, which can be find in:
+
 https://hub.docker.com/r/nadeemjazmawe/helloworld
+
 Now you can run the docker image on you own computer using the following command:
 `  docker run -d -p 5000:5000 nadeemjazmawe/helloworld`
 
