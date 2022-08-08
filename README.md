@@ -11,7 +11,7 @@ In order to do this task i have used Google Cloud Platform , using the free cred
 
 
 ## 1. Docker Image:
-To create python service that print "hello world" , i have used flask library , building a basic web App that return "hello world".
+To create python service that print "hello world!" , i have used flask library , building a basic web App that return "hello world".
 
 ```
 from flask import Flask
@@ -26,6 +26,7 @@ if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
 ```
 you can run this python code and visit the web on: http://127.0.0.1:5000/
+
 ![Untitled](https://user-images.githubusercontent.com/44744877/183521990-4148b286-9985-44bb-8aa2-d9fb197305fe.png)
 
 
@@ -59,6 +60,7 @@ docker push gcr.io/PROJECT_ID/helloworld:latest
 ```
 
 Now i have the image in my gcloud, which can seen on container registry -> images 
+
 ![Untitled1](https://user-images.githubusercontent.com/44744877/183522019-8da6e022-bfc8-492f-9474-267846f79d53.png)
 
 
