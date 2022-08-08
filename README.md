@@ -50,7 +50,8 @@ After that i pushed the imgae to Dockerhub, which can be find in:
 https://hub.docker.com/r/nadeemjazmawe/helloworld
 
 Now you can run the docker image on you own computer using the following command:
-`  docker run -d -p 5000:5000 nadeemjazmawe/helloworld`
+
+`docker run -d -p 5000:5000 nadeemjazmawe/helloworld`
 
 ## 2. Google Cloud container registry
 To Upload that docker image to Google Cloud container registry i have do the following steps:
