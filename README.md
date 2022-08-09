@@ -87,6 +87,7 @@ gcloud container clusters create hello-cluster \
 ```
 You can check the cluster in Kubernetes clusters
 
+![Untitled123](https://user-images.githubusercontent.com/44744877/183534607-72eaba00-ac69-40c2-8806-6fb196aa812c.png)
 
 
 
@@ -201,7 +202,7 @@ In this file directory running the following command:
 
 We can check the status of ingress by:
 
-`kubectl get ingress'
+`kubectl get ingress`
 
 ![Untitledasd](https://user-images.githubusercontent.com/44744877/183534370-a269aaee-a484-4faa-abdc-500a9d404f7f.png)
 
