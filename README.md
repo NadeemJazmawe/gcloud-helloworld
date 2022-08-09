@@ -209,9 +209,12 @@ We can check the status of ingress by:
 
 Under ADDRESS colmn we can see IP , this IP we gonna connect to using http , and we gonna see the web that we have build.
 
-Now we can visit the following web:
+Now we can visit the following web from any device:
 
 http://34.160.170.159/
+
+![Untitledasd](https://user-images.githubusercontent.com/44744877/183534981-bda2c620-4e90-451e-b249-ff0b5983296c.png)
+
 
 There is another option to buy a domain name and connect it to our system...
 
